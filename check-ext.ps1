@@ -4,10 +4,17 @@ $extensions = @(
     ".sh", ".bash", ".py", ".pl", ".rb", ".php", ".js", ".jsp", ".asp", ".hta", ".wsf", ".psm1",
     ".zip", ".rar", ".7z", ".tar.gz", ".iso",
     ".docm", ".xlsm", ".pptm", ".doc", ".xls",
-    ".jar", ".class", ".pyc", ".apk", ".iso", ".lnk", ".bin", ".reg", ".inf", ".sys", ".drv", ".ocx", ".psd1",
+    ".jar", ".class", ".pyc", ".apk", ".lnk", ".bin", ".reg", ".inf", ".sys", ".drv", ".ocx", ".psd1",
     ".sql", ".csv",
-    ".html", ".php", ".cgi", ".jsp", ".aspx", ".json"
+    ".html", ".cgi", ".aspx", ".json",
+    ".mp3", ".mp4", ".mov", ".avi", ".mkv", ".flv", ".wmv", ".webm", ".m4v",
+    ".wav", ".aac", ".flac", ".ogg", ".wma", ".m4a", ".aiff",
+    ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".tif", ".heic", ".webp",
+    ".pdf", ".epub", ".mobi",
+    ".dmg", ".cue", ".sav", ".rom", ".gbr", ".gba", ".nds",
+    ".swf", ".fla"
 )
+
 
 # Function to scan the directory for potentially malicious files
 function Scan-Directory {
